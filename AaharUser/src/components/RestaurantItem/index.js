@@ -19,7 +19,7 @@ const RestaurantItem = ({ restaurant }) => {
         </View>
 
         <View style={styles.rating}>
-          <Text>{restaurant.rating}</Text>
+          <Text>{restaurant.rating}&#9733;</Text>
         </View>
       </View>
     </View>
@@ -31,12 +31,15 @@ export default RestaurantItem;
 const styles = StyleSheet.create({
   restaurantContainer: {
     width: "100%",
-    marginVertical: 10,
+    marginVertical: 15,
+    borderBottomColor: "lightgray",
+    borderBottomWidth: 1.5,
   },
   image: {
     width: "100%",
     aspectRatio: 5 / 3,
     marginBottom: 5,
+    borderRadius: 20,
   },
   title: {
     fontSize: 16,
@@ -54,8 +57,7 @@ const styles = StyleSheet.create({
     marginLeft: "auto",
     backgroundColor: "lightgray",
     borderRadius: 20,
-    width: 30,
-    height: 30,
+    padding: 10,
     alignItems: "center",
     justifyContent: "center",
   },

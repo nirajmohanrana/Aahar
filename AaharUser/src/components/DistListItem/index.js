@@ -36,6 +36,7 @@ const styles = StyleSheet.create({
   description: {
     color: "gray",
     marginVertical: 5,
+    paddingRight: 30,
   },
   price: {
     fontSize: 16,
@@ -43,5 +44,6 @@ const styles = StyleSheet.create({
   image: {
     height: 100,
     aspectRatio: 1,
+    borderRadius: 20,
   },
 });
