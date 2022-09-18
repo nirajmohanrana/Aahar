@@ -3,7 +3,7 @@ import { Ionicons } from "@expo/vector-icons";
 
 import restaurants from "../../../assets/data/restaurants.json";
 import DishListItem from "../../components/DistListItem";
-import Header from "../../screens/RestaurantDetails/Header";
+import Header from "../../screens/RestaurantDetailsScreen/Header";
 import styles from "./styles";
 const restaurant = restaurants[0];
 
