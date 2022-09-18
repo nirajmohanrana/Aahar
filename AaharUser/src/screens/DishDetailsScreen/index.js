@@ -47,6 +47,8 @@ const DishDetailsScreen = () => {
         <Text style={styles.buttonText}>
           Add {quantity} to basket (${getTotal()})
         </Text>
+
+        <Text>Test for pull upstream</Text>
       </View>
     </View>
   );
