@@ -27,6 +27,7 @@ export default StyleSheet.create({
     fontSize: 35,
     fontWeight: "600",
     marginVertical: 10,
+    letterSpacing: 0.5,
   },
   subtitle: {
     fontSize: 15,
