@@ -8,8 +8,8 @@ export default function App() {
   return (
     <View style={styles.container}>
       {/* <HomeScreen /> */}
-      <RestaurantDetails />
-      {/* <DishDetailsScreen /> */}
+      {/* <RestaurantDetails /> */}
+      <DishDetailsScreen />
 
       <StatusBar style="light" />
     </View>
