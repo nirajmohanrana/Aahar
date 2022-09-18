@@ -25,13 +25,13 @@ export default StyleSheet.create({
   },
   title: {
     fontSize: 35,
-    fontWeight: "600",
+    fontWeight: "500",
     marginVertical: 10,
     letterSpacing: 0.5,
   },
   subtitle: {
     fontSize: 15,
-    color: "#525252",
+    color: "gray",
   },
   menuTitle: {
     marginVertical: 10,
