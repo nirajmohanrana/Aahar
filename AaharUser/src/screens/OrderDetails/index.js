@@ -1,11 +1,11 @@
 import { View, Text, Image, FlatList } from "react-native";
+import React from "react";
 import { LinearGradient } from "expo-linear-gradient";
-import styles from "./styles";
 
+import styles from "./styles";
 import orders from "../../../assets/data/orders.json";
 import restaurants from "../../../assets/data/restaurants.json";
-import OrderListItem from "../../components/OrderListItem";
-
+import BasketDishItem from "../../components/BasketDishItem";
 const order = orders[0];
 
 const OrderDetailsHeader = () => {
@@ -43,7 +43,7 @@ const OrderDetails = () => {
     <FlatList
       ListHeaderComponent={OrderDetailsHeader}
       data={restaurants[0].dishes}
-      renderItem={({ item }) => <OrderListItem dish={item} />}
+      renderItem={({ item }) => <BasketDishItem basketDish={item} />}
     />
   );
 };
