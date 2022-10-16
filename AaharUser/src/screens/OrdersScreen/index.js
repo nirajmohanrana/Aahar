@@ -2,7 +2,7 @@ import { View, Text, FlatList } from "react-native";
 import OrderListItem from "../../components/OrderListItem";
 import orders from "../../../assets/data/orders.json";
 
-const OrderScreen = () => {
+const OrdersScreen = () => {
   return (
     <View style={{ flex: 1, width: "100%", paddingTop: 50 }}>
       <FlatList
@@ -13,4 +13,4 @@ const OrderScreen = () => {
   );
 };
 
-export default OrderScreen;
+export default OrdersScreen;
